@@ -1,0 +1,33 @@
+Redux Principals:
+
+1) Represent state of app as a single js object.
+- all changes are explicit and can keep track 
+of all of them
+
+
+2) State tree is redundant, can't modify or write to it.
+You need to dispatch an action In order to change state.
+
+- structure of action needs a type that is not undefined.
+(use a string because it's cerializable)
+
+ex: type = "increment"
+type = "decrement"
+
+foreach  instance of a component ex:counter, and index is 
+added to the action.
+
+- you can also add properties to actions. 
+ex: "filters": "show active"
+
+Understand pure/impure functions
+Pure and Impure functions
+- take a value and return a new value. Do not modify arguments.
+- impure manipulate actions on arguments, overwrite values, and have 
+side affects.
+
+3) Reducer funciton
+- State mutations are described as pure functions that take the previous state, 
+current action and returns a new state.
+- Reducer functions have to be pure
+
