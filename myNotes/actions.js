@@ -1,5 +1,6 @@
 /**
  * Actions
+ * https://redux.js.org/docs/basics/Actions.html
  */
 
 /**

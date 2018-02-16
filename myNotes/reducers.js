@@ -1,5 +1,6 @@
 /**
  * Reducers
+ * https://redux.js.org/docs/basics/Reducers.html
  */
 
  /**
